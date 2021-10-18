@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST VERSION OF YOU</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+    <header>
+            <div class="header-logo">
+                <h3>BE THE</h3>
+                <h1>BEST</h1>
+                <h1>VERSION</h1>
+                <h1>OF YOU</h1>
+            </div>
+
+            <div>
+            <nav>
+                <ul class="header-menus">
+                <li><a href="homepage.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            </div>
+</header>
+
+<main>
+    <div class="top">
+        <h4>Can I Say Something to You ?</h4>
+        <p id="output"></p>
+        <button id="btn">Click Me!</button>
+        <script>
+            let btn = document.getElementById('btn');
+            let output = document.getElementById('output');
+            let words = 
+        [
+                "maybe we can't, maybe we won't, but we have to for the brighter future!",
+                "People comments will never end, just what you worth !",
+                "Sometimes we're rejected. And maybe it's not because we can't be part of them, but they don't deserve us",
+                "When the problems hit you more and more but you don't know how to solve them, maybe all you need is break, take a deep breath and a cup of coffee",
+                "Jangan berbuat baik karena mereka baik ke kita, berbuat baiklah karena itu HARUS. Agar suatu hari jika ada yang tidak baik, tidak akan ada yang terkecewakan",
+                "Be there for others, but never leave yourself behind -advice",
+                "Kadang orang terlihat buruk tidak selalu karena mereka benar-benar buruk, tapi ekspetasi kita tentang mereka yang terlalu tinggi",
+                "You gotta stop getting mad when people don't support you, half of them can't even support themselves -minds_of_entrepreneurs",
+                "When you truly understand that dua never goes unanswered, its hard to stop talking to God",
+                "I pray that whoever reads this, God heals whatever is hurting you..."
+
+        ];
+
+            btn.addEventListener('click', function(){
+            var randomword = words[Math.floor(Math.random() * words.length)]
+            output.innerHTML = randomword;
+        })
+        </script>
+    </div>
+            <div class="title">
+                <h2>our Courses</h2>
+            </div>
+
+            <article>
+                <div class="first-line">
+                <div class="article-item">
+                    <img src="CR7.png" />
+                    <p><strong>CHRISTIANO RONALDO</strong></p>
+                    <p>“Your love makes me strong, your hate makes me unstoppable”</p>
+                    <p>-CR7-</p>
+                    <a href="cr7.html"><u>Get to know him →</u></a>
+                </div>
+
+                <div class="article-item">
+                    <img src="Houtman2.png" />
+                    <p><strong>HOUTMAN ZAINAL ARIFIN</strong></p>
+                    <p>“Allah tidak akan  merubah nasib hamba-Nya, sebelum hamba-Nya berusaha sendiri mengubah nasibnya”</p>
+                    <p>-Houtman-</p>
+                    <a href="houtman.html"><u>Get to know him →</u></a>
+                </div>
+
+                <div class="article-item">
+                    <img src="walt2.png" />
+                    <p><strong>WALTER ELIAS DISNEY</strong></p>
+                    <p>“ First, think. Second, dream. Third, believe. And finally, dare “</p>
+                    <p>-Disney-</p>
+                    <a href="walt.html"><u>Get to know him →</u></a>
+                </div>
+                </div>
+                
+                <div class="second-line">
+                <div class="article-item">
+                    <img src="job.png" />
+                    <p><strong>STEVEN PAUL JOBS</strong></p>
+                    <p>“ Don't let the noise of other's opinions drown out your own inner voice ”</p>
+                    <p>-Steve Job-</p>
+                    <a href="job.html"><u>Get to know him →</u></a>
+                </div>
+
+                <div class="article-item">
+                    <img src="colonel2.png" />
+                    <p><strong>HARLAND DAVID SANDERS</strong></p>
+                    <p>“ I've only had two rules : do all you can do and do it the best you can.It's the only way you ever get that feeling of accomplishing something”</p>
+                    <p>-Colonel Sanders-</p>
+                    <a href="colonel.html"><u>Get to know him →</u></a>
+                </div>
+                <div class="article-item">
+                    <img src="bob2.png"/>
+                    <p><strong>BAMBANG MUSTARI SADINO</strong></p>
+                    <p>“ Yang beneran punya, nggak akan banyak bicara seperti mereka yang berlaga SOK PUNYA”</p>
+                    <p>-Bob Sadino-</p>
+                    <a href="bob.html"><u>Get to know him →</u></a>
+                </div>
+                </div>
+            </article>
+            </main>
+
+    <footer>
+            <div class="footer-left">
+                    <h3>BE THE</h3>
+                    <h1>BEST</h1>
+                    <h1>VERSION</h1>
+                    <h1>OF YOU</h1>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <nav>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>
